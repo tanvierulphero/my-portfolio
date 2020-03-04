@@ -11,13 +11,14 @@ img{
 }
 .half-width{
     width: 30%;
-    float:
+    float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 
 p{
-    font-size: 20px;
+    font-size: 30px;
+    text-align: justify;
 }
 .top-banner{
     background-image: url("images/header-bg.png");
