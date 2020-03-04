@@ -1,17 +1,33 @@
 h1{
-    color: brown;
+    color: crimson;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
 }
 img{
-    max-width: 700px;
-    height: auto;
+    max-width: 931px;
+    height: 983px;
 }
 .half-width{
-    width: 40%;
-    float: left;
+    width: 30%;
+    float:
     margin-left: 5%;
     padding-left: 2%;
 }
 
 p{
     font-size: 20px;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+}
+.link-button{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
 }
