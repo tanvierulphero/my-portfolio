@@ -1,7 +1,17 @@
 h1{
     color: brown;
 }
-.photo{
-    width: 100px;
-    height: 100px;
+img{
+    max-width: 700px;
+    height: auto;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+p{
+    font-size: 20px;
 }
