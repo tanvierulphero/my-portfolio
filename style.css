@@ -37,6 +37,7 @@ p{
 .latest-work{
     width: 30px;
     height: 30px;
+    font-weight: 700;
 }
   .client{
       text-align: center;
@@ -45,9 +46,14 @@ p{
       text-align: center;
   }
   .mail{
-    padding: 5px 0px;
+    padding: 5px 10px;
     border-radius: 10%;
-      background-color: red;
-      text-align: center;
-      box-sizing: 30 20;
+    background-color: red;
+    text-align: center;
+    
+  }
+  .gallery{
+        display: inline;
+        padding-left: 2%;
+        margin-left: 5px;
   }
