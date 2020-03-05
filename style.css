@@ -1,59 +1,74 @@
-h1{
-    color: crimson;
-    font-size: 50px;
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 10%;
+}
+.background1{
+    background-image: url(images/header-bg.png);
+    background-position:center;
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+.first-section{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 3%;
+    float: left;
+    padding-bottom: 5%;
+}
+.first-section img{
+    width: 100%;
 }
 h2{
+    margin-top: 25%;
+    margin-bottom: -5%;
+}
+h1{
     font-size: 40px;
-}
-img{
-    max-width: 90%;
-    height: auto;
-}
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-    padding-bottom: 5%;
-    padding-top: 5%;
-}
-
-p{
-    font-size: 30px;
-    text-align: justify;
-}
-.top-banner{
-    background-image: url("images/header-bg.png");
+    font-weight: bolder;
+    margin-bottom: 1%;
+    color: #ff3366;
 }
 .link-button{
     text-decoration: none;
-    background-color: crimson;
+    background-color: #ff3366;
     padding: 10px 20px;
-    border-radius: 10%;
+    border-radius: 10px;
     color: white;
     font-size: 25px;
     font-weight: 700;
 }
-.latest-work{
-    width: 30px;
-    height: 30px;
+.background2{
+    background-image: url(images/biography-bg.png);
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    padding-bottom: 5%;
+}
+.half-width img{
+    width: 110%;
+    margin-bottom: 20%;
+}
+
+.bio{
+    margin-top: 40%;
+}
+.work{
+    font-size: 30px;
     font-weight: 700;
 }
-  .client{
-      text-align: center;
-  }
-  footer{
-      text-align: center;
-  }
-  .mail{
-    padding: 5px 10px;
-    border-radius: 10%;
-    background-color: red;
-    text-align: center;
-    
-  }
-  .gallery{
-        display: inline;
-        padding-left: 2%;
-        margin-left: 5px;
-  }
+.gallery{
+      display: inline;
+      padding-left: 2%;
+      margin-left: 5%;
+      
+
+}
