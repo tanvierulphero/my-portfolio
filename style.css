@@ -31,6 +31,10 @@ h1{
     margin-bottom: 1%;
     color: #ff3366;
 }
+p{
+    font-size: 20px;
+    text-align: justify;
+}
 .link-button{
     text-decoration: none;
     background-color: #ff3366;
@@ -83,23 +87,29 @@ h3{
     margin-bottom: -1%;
 
 }
+.lorel{
+    text-align: center;
+}
 .alies
 {
     text-align: center;
+
 }
-p{
-    font-size: 20px;
+.ceo{
     text-align: center;
 }
 .mail{
+    
+    background-color: #ff3366;
     padding: 5px 10px;
-    margin-left: 30%;
-    margin-right: 30%;
     border-radius: 10px;
     color: white;
-    background-color: rgb(255,51,102);
-    text-align: center;
-    margin-top: 5%;
+    font-size: 20px;
+     text-align: center;
+     margin-left: 30%;
+     margin-right: 30%;
+    
+    
 }
 footer{
     text-align: center;
